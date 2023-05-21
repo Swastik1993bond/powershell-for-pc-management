@@ -2,7 +2,7 @@
 
 By default, PowerShell restricts running scripts for security reasons. To allow script execution, you need to change the execution policy. Run the following command:
 ```powershell
-// Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
 ```
 
 This will set the execution policy to allow running local scripts that are signed.
